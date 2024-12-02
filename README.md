@@ -20,13 +20,14 @@
 ## How to install the first time 
 Only execute these commands when installing for the first time!
 
-1. Open a new terminal for the pterodactyl panel <br>
+1. Open a new terminal for the pterodactyl panel
+   
    Replace "pterodactyl-panel" with your docker image name or id. (See the name & id with ```sudo docker ps```)
    ```shell
    sudo docker exec -it pterodactyl-panel sh
    ```
 
-2. Inside the new terminal, execute the following commands
+3. Inside the new terminal, execute the following commands
    ```shell
    apk update && apk add git curl
    curl -o install_script.sh https://raw.githubusercontent.com/MrAhmalo/pterodactyl-themes/refs/heads/main/install_theme.sh
