@@ -1,7 +1,7 @@
 ## pterodactyl-themes
 [![Stars](https://img.shields.io/github/stars/MrAhmalo/pterodactyl-themes)](#) [![Last commit](https://img.shields.io/github/last-commit/MrAhmalo/pterodactyl-themes)](#)
 
-Install pterodactyl themes the casual way. Ideal for panels running with docker.
+###Install pterodactyl themes the casual way. Ideal for panels running with docker.
 
 <table>
 <tr>
