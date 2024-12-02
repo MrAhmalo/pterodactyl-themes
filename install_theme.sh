@@ -23,7 +23,7 @@ installTheme(){
 
     
     if cd "$TARGET_DIR"; then
-        #placeholder
+        :
     else
         echo "Directory $TARGET_DIR does not exist. Exiting."
         exit 1
@@ -31,13 +31,13 @@ installTheme(){
 
     echo "Deleting old $TARGET_FILE..."
     if rm -f "$TARGET_FILE"; then
-        #placeholder
+        :
     else
         exit 1
     fi
 
     if curl -o "$TARGET_FILE" "$REPO_URL"; then
-        #placeholder
+        :
     else
         echo "Failed to download $TARGET_FILE from $REPO_URL. Exiting."
         exit 1
