@@ -5,14 +5,14 @@
 
 <table>
 <tr>
-<td><img src="https://www.pngall.com/wp-content/uploads/8/Red-Warning-PNG-Free-Download.png" width="100"></td>
+<td><img src="https://www.pngall.com/wp-content/uploads/8/Red-Warning-PNG-Free-Download.png" width="50"></td>
 <td align="center" bgcolor="#FFFF00">
 
-# WARNING
+## WARNING
 
 **This tool is currently under active development and should currently not be used!**
 
 </td>
-<td><img src="https://www.pngall.com/wp-content/uploads/8/Red-Warning-PNG-Free-Download.png" width="100"></td>
+<td><img src="https://www.pngall.com/wp-content/uploads/8/Red-Warning-PNG-Free-Download.png" width="50"></td>
 </tr>
 </table>
