@@ -2,16 +2,18 @@
 
 installTheme(){
     # Prepare
+    echo "Preparing installation..."
+    sleep 2
     php artisan down
 
-    echo "Updating package list and installing required packages..."
-    sleep 2   
+    echo "Updating package list and installing required packages..." 
     apk update && apk add git curl || {
         echo "Failed to install required packages. Exiting."
         exit 1
     }
 
     # Main
+    echo ""
     echo "Installing theme..."
     sleep 2
 
@@ -19,8 +21,9 @@ installTheme(){
     TARGET_FILE="pterodactyl.css"
     REPO_URL="https://raw.githubusercontent.com/MrAhmalo/panel/refs/heads/1.0-develop/$TARGET_FILE"
 
+    
     if cd "$TARGET_DIR"; then
-        echo ""
+        #placeholder
     else
         echo "Directory $TARGET_DIR does not exist. Exiting."
         exit 1
@@ -28,19 +31,21 @@ installTheme(){
 
     echo "Deleting old $TARGET_FILE..."
     if rm -f "$TARGET_FILE"; then
-        echo ""
+        #placeholder
     else
         exit 1
     fi
 
     if curl -o "$TARGET_FILE" "$REPO_URL"; then
-        echo ""
+        #placeholder
     else
         echo "Failed to download $TARGET_FILE from $REPO_URL. Exiting."
         exit 1
     fi
+    echo "Theme succesfully installed..."
 
     # Cleanup
+    echo ""
     echo "Finishing up..."
     sleep 2
     php artisan view:clear
@@ -52,9 +57,9 @@ installTheme(){
     echo "Operation completed successfully. Theme installed."
 }
 
+echo ""
 echo "Copyright (c) 2024 Ahmalo | MrAhmalo | SirAhmalo"
 echo "This program is free software: you can redistribute it and/or modify"
-echo ""
 echo "Website: https://portfolio.golegana.de"
 echo ""
 echo "[1] Install theme"
