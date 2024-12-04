@@ -21,13 +21,14 @@
 
 1. Downloading the addon
 	 
-	 Download the newest version of PlayerTools pro [here](example.com).
-	 Drop / copy the downloaded .blueprint file into the extension folder of your blueprint instance.
-	 More informatin about installing addons can you get [here](example.com).
+	 Download the newest version of PlayerTools pro [here](example.com). <br>
+	 Drop / copy the downloaded .blueprint file into the extension folder of your blueprint instance.<br>
+	 More information about installing addons can you get [here](example.com).<br>
 
 2. Open a new terminal for the pterodactyl panel
    
-   Replace "pterodactyl-panel" with your docker image name or id. (See the name & id with ```sudo docker ps```)
+   Replace "pterodactyl-panel" with your docker image name or id. <br>
+   (See the name & id with ```sudo docker ps```)
    ```shell
    sudo docker exec -it pterodactyl-panel sh
    ```
@@ -37,5 +38,5 @@
    blueprint -i playertoolspro
    ```
 
-4. Done! PlayerToolsPro has been succesfully installed.
+4. Done! PlayerToolsPro has been succesfully installed. <br>
 	 Got an error? Have an issue? Get help here --> https://discord.gg/123456
