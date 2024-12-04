@@ -17,7 +17,7 @@
 </tr>
 </table>
 
-## How to install the first time 
+## How to install
 
 1. Downloading the addon
 	 
