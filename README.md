@@ -1,7 +1,7 @@
 [![Stars](https://img.shields.io/github/stars/MrAhmalo/pterodactyl-themes)](#) [![Last commit](https://img.shields.io/github/last-commit/MrAhmalo/pterodactyl-themes)](#)
 
 ## Pterodactyl Blueprint - PlayerTool Pro
-### Manage the players in your minecraft server with ease. 100% free. Blueprint compatible.
+### Manage the players in your minecraft server with ease. <br> 100% free. Blueprint compatible.
 
 <table>
 <tr>
