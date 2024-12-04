@@ -39,6 +39,4 @@
    ```
 
 4. Done! PlayerToolsPro has been succesfully installed. <br>
-	  ```diff
-			- Got an error? Have an issue?
-   ```   Get help here --> https://discord.gg/123456
+	  #### Got an error? Have an issue? Get help here --> https://discord.gg/123456
