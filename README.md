@@ -39,4 +39,4 @@
    ```
 
 4. Done! PlayerToolsPro has been succesfully installed. <br>
-	  $${\color{red}Got an error? Have an issue?}$$ Get help here --> https://discord.gg/123456
+	  ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`  Get help here --> https://discord.gg/123456
